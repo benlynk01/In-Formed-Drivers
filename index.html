@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In-Formed Drivers</title>
+    <style>
+        h1 {text-align: center;}
+    </style>
+</head>
+<body>
+    <header style="background-color: springgreen"> <img src="images/car.jpg" alt="car"  width="225" height="175"/> 
+    <h1>Ideal Car</h1></header>
+    <br/>
+    <form id="driveForm" action="#" method="get"></form>
+
+    <label for ="intro">Let's Customize Your Dream Car!</label>
+
+    <br />
+
+    <fieldset>
+        <legend>Choose a Manufacurer</legend>
+      <input
+        type="radio"
+        id="chevy"
+        name="manufacture"
+        value="chevy"
+      /><label for="chevy">Chevrolet</label><br />
+      <input
+        type="radio"
+        id="ford"
+        name="manufacture"
+        value="ford"
+      />
+      <label for="ford">Ford</label>
+
+      <br />
+
+      <input
+        type="radio"
+        id="dodge"
+        name="manufacture"
+        value="dodge"
+      /><label for="dodge">Dodge</label>
+
+      <br />
+
+      <input
+      type="radio"
+      id="audi"
+      name="manufacture"
+      value="audi"
+      /><label for="audi">Audi</label>
+
+      <br />
+
+     <input
+     type="radio"
+     id="bmw"
+     name="manufacture"
+     value="bmw"
+     /><label for="bmw">BMW</label>
+
+     <br />
+
+     <input
+     type="radio"
+     id="porsche"
+     name="manufacture"
+     value="porsche"
+     /><label for="porsche">Porsche</label>
+
+     <br />
+
+    </fieldset>
+
+    <br />
+
+    <fieldset>
+        <legend>Colorize Your Dream Car</legend>
+        <label for="boxColor"
+          >Pick Your Preferred Color
+          <input type="color" id="boxColor" name="boxColor" />
+        </label>
+    </fieldset>
+
+    <br />
+
+    <fieldset>
+        <legend>Select Your Preferred Drive Option</legend>
+      <input
+        type="checkbox"
+        id="four"
+        name="drive"
+        value="four"
+      /><label for="four">Four-Wheel Drive</label><br />
+
+      <input
+        type="checkbox"
+        id="rear"
+        name="drive"
+        value="rear"
+      />
+      <label for="rear">Rear-Wheel Drive</label>
+
+      <br />
+
+      <input
+        type="checkbox"
+        id="front"
+        name="drive"
+        value="front"
+      /><label for="front">Front-Wheel Drive</label>
+
+      <br />
+      
+      <input
+        type="checkbox"
+        id="all"
+        name="drive"
+        value="all"
+      /><label for="all">All-Wheel Drive</label>
+    </fieldset>
+
+    <br/>
+
+    <label for="customerLicense">
+
+        Please Enter Your License Number.
+        <textarea
+          id="customerLicense"
+          name="customerLicense"
+          placeholder="license"
+        >
+        </textarea>
+    </label>
+
+    <br/>
+    <br/>
+
+    <fieldset>
+    <legend>Choose What Type of Car You'd Prefer</legend>
+    <input
+      type="radio"
+      id="coupe"
+      name="doors"
+      value="coupe"
+    /><label for="coupe">Coupe</label><br />
+
+    <input
+      type="radio"
+      id="sedan"
+      name="doors"
+      value="sedan"
+    />
+    <label for="sedan">Sedan</label><br />
+
+    <input
+      type="radio"
+      id="suv"
+      name="doors"
+      value="suv"
+    />
+    <label for="suv">SUV</label><br />
+
+    <input
+      type="radio"
+      id="big"
+      name="doors"
+      value="big"
+    />
+    <label for="big">Truck</label>
+    </fieldset>
+
+    <br/>
+
+    <fieldset>
+        <legend>Select Your Preferred Engine Size</legend>
+      <input
+        type="checkbox"
+        id="v4"
+        name="cyl"
+        value="v4"
+      /><label for="v4">4-Cylinder</label><br />
+
+      <input
+        type="checkbox"
+        id="v6"
+        name="cyl"
+        value="v6"
+      /><label for="v6">6-Cylinder</label><br />
+
+      <input
+        type="checkbox"
+        id="v8"
+        name="cyl"
+        value="v8"
+      /><label for="v8">8-Cylinder</label><br />
+
+      <input
+        type="checkbox"
+        id="v10"
+        name="cyl"
+        value="v10"
+      /><label for="v10">10-Cylinder</label><br />
+
+      <input
+        type="checkbox"
+        id="v12"
+        name="cyl"
+        value="v12"
+      /><label for="v12">12-Cylinder</label><br />
+    </fieldset>
+    
+    <input type="submit" id="process" />
+
+</body>
+</html>
